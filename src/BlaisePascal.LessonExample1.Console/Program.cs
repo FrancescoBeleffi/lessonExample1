@@ -11,6 +11,8 @@ public class Program // questa è una classe
 
 
         Console.WriteLine("Benvenuto nella libreria Easy Class 3E");
+
+        Console.WriteLine("Inserisci il tuo nome");
         
         string NomeCliente = Console.ReadLine();
 
@@ -40,10 +42,10 @@ public class Program // questa è una classe
         string tipoConsegna = "Standard"; //dichiarazione
 
 
-        int CostoTotale = costospedizione + numeropacchicomprati;
+        int CostoTotale = costospedizione * numeropacchicomprati;
 
         // Stampa a video con concatenazione di stringhe e variabili
-        Console.WriteLine("Il costo totale della cnsegna è di " + CostoTotale + "euro");
+        Console.WriteLine("Il costo totale della cnsegna è di " + CostoTotale + " euro");
         // il simbolo $ equivale a mettere il + prima della variabile tipoConsegna
         Console.WriteLine($"Il tipo di consegna selezionato è { tipoConsegna}");
 
